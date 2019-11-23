@@ -1,0 +1,3 @@
+SUBSYSTEM=="usb", ATTR{idVendor}=="12d1", ATTR{idProduct}=="107e", MODE="0666"
+#SUBSYSTEM=="usb", ATTR{idVendor}=="12d1", MODE="0666"
+#SUBSYSTEM=="usb", ATTR{idVendor}=="12d1", ATTR{idProduct}=="107e", SYMLINK+="android_adb"
